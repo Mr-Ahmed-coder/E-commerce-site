@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories - GlowBeauty</title>
+    <meta name="description" content="Browse GlowBeauty product categories. Shop Skincare, Makeup, and Haircare collections.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html"><h2>GlowBeauty</h2></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="categories.html" class="active">Categories</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search products...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                    <div class="cart-icon" id="cartIconNav">
+                        <a href="cart.html">
+                            <span class="cart-count">0</span>
+                            🛒
+                        </a>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Shop by Category</h1>
+        <p>Find the perfect products for your beauty routine</p>
+        <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span>/</span>
+            <span>Categories</span>
+        </div>
+    </section>
+
+    <!-- Categories Grid -->
+    <section class="categories categories-page" style="padding-top: 40px;">
+        <div class="container">
+            <div class="category-grid" id="categoryGrid">
+                <!-- Skincare -->
+                <a href="products.html?category=skincare" class="category-card">
+                    <div class="category-image-large">
+                        <img src="images/categories/category1.jpg" alt="Skincare Collection">
+                    </div>
+                    <div class="category-info">
+                        <h3>Skincare</h3>
+                        <p>Nourish and protect your skin with our premium serums, creams, and treatments designed for every skin type.</p>
+                        <span class="category-link">Explore Skincare →</span>
+                    </div>
+                </a>
+
+                <!-- Makeup -->
+                <a href="products.html?category=makeup" class="category-card">
+                    <div class="category-image-large">
+                        <img src="images/categories/category2.jpg" alt="Makeup Collection">
+                    </div>
+                    <div class="category-info">
+                        <h3>Makeup</h3>
+                        <p>Express your unique beauty with our professional-grade foundations, lipsticks, and color collections.</p>
+                        <span class="category-link">Explore Makeup →</span>
+                    </div>
+                </a>
+
+                <!-- Haircare -->
+                <a href="products.html?category=haircare" class="category-card">
+                    <div class="category-image-large">
+                        <img src="images/categories/category3.jpg" alt="Haircare Collection">
+                    </div>
+                    <div class="category-info">
+                        <h3>Haircare</h3>
+                        <p>Achieve healthy, beautiful hair with our nourishing shampoos, conditioners, and styling products.</p>
+                        <span class="category-link">Explore Haircare →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Explore All Products</h2>
+            <p>Browse our complete collection of beauty essentials</p>
+            <a href="products.html" class="cta-button">View All Products</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GlowBeauty</h3>
+                    <p>Your trusted partner in beauty and skincare</p>
+                    <div class="social-icons">
+                        <a href="#">📘</a>
+                        <a href="#">📷</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📌</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="products.html">Featured Products</a></li>
+                        <li><a href="products.html">New Arrivals</a></li>
+                        <li><a href="products.html">Sale Items</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Ingredients</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GlowBeauty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

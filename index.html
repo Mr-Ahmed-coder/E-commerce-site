@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowBeauty - Premium Cosmetics Shop</title>
+    <meta name="description" content="Discover premium cosmetics and skincare products at GlowBeauty. Shop our curated collection of beauty essentials.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html"><h2>GlowBeauty</h2></a>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <div class="search-box">
+                        <input type="text" id="searchInput" placeholder="Search products...">
+                        <button class="search-btn">🔍</button>
+                    </div>
+                    <div class="cart-icon" id="cartIconNav">
+                        <a href="cart.html">
+                            <span class="cart-count">0</span>
+                            🛒
+                        </a>
+                    </div>
+                </div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Your Skin, Your Glow</h1>
+            <p>Discover premium cosmetics that enhance your natural beauty</p>
+            <a href="products.html" class="cta-button">Shop Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="images/products/product1 (1).jpg" alt="Premium Cosmetic Products">
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <div class="category-grid">
+                <a href="products.html?category=skincare" class="category-card">
+                    <div class="category-image">
+                        <img src="images/categories/category1.jpg" alt="Skincare">
+                    </div>
+                    <h3>Skincare</h3>
+                    <p>Nourish and protect your skin</p>
+                </a>
+                <a href="products.html?category=makeup" class="category-card">
+                    <div class="category-image">
+                        <img src="images/categories/category2.jpg" alt="Makeup">
+                    </div>
+                    <h3>Makeup</h3>
+                    <p>Express your beauty</p>
+                </a>
+                <a href="products.html?category=haircare" class="category-card">
+                    <div class="category-image">
+                        <img src="images/categories/category3.jpg" alt="Haircare">
+                    </div>
+                    <h3>Haircare</h3>
+                    <p>Healthy, beautiful hair</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="products" class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be dynamically rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotion Section -->
+    <section class="promotion">
+        <div class="container">
+            <div class="promo-content">
+                <div class="promo-text">
+                    <h2>🎉 Special Offer</h2>
+                    <h3>50% OFF Selected Items</h3>
+                    <p>Limited time offer on our premium skincare collection</p>
+                    <a href="products.html" class="promo-button">Shop Sale</a>
+                </div>
+                <div class="promo-image">
+                    <img src="images/products/product1 (1).jpg" alt="Special Promotion">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <section class="product-showcase">
+        <div class="container">
+            <h2>Best Selling Products</h2>
+            <div class="showcase-grid" id="showcaseGrid">
+                <!-- Showcase products will be dynamically rendered by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="cta-banner">
+        <div class="container">
+            <h2>Beauty That Loves Your Skin</h2>
+            <p>Discover our complete collection of premium cosmetics</p>
+            <a href="products.html" class="cta-button">View All Products</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GlowBeauty</h3>
+                    <p>Your trusted partner in beauty and skincare</p>
+                    <div class="social-icons">
+                        <a href="#">📘</a>
+                        <a href="#">📷</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📌</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="products.html">Featured Products</a></li>
+                        <li><a href="products.html">New Arrivals</a></li>
+                        <li><a href="products.html">Sale Items</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Customer Service</h4>
+                    <ul>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Shipping Info</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Ingredients</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Reviews</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 GlowBeauty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
